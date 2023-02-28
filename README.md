@@ -1,6 +1,7 @@
 # BD&L on Salesforce
 
 ## Team
+![BD&L? Team](./img/team_img.png "Team")
 
 ## All Documentation
 
