@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<!--
+Dashboards
+Reports
+Opportunity
+Lead
+Asset
+Alliance Projects
+Obligations
+Resource Planning
+Task
+Events
+Contact Roles
+Contacts
+Potential Buyer
+Sales Path
+Case
+Risk Assessment
+Lightning Pages
+ -->
+    <version>56.0</version>
+</Package>
