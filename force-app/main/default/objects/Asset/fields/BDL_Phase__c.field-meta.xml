@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Phase__c</fullName>
+    <description>This picklist utilizes the &quot;Asset Phase&quot; global value set and comes with pre-defined phased from cortellis. Values can be added via the global value set.
+Demen S. 9th March 2023.</description>
+    <externalId>false</externalId>
+    <label>Phase</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>BDL_Asset_Phase</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Launched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Outlicensed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Phase 1 Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Phase 2 Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Phase 3 Clinical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Pre-Registeration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Registered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Active</controllingFieldValue>
+            <valueName>Suspended</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Discontinued</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>No Development Reported</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inactive</controllingFieldValue>
+            <valueName>Withdrawn</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

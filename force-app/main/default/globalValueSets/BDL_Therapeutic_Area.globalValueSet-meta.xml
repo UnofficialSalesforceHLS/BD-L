@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Allergy &amp; Respiratory</fullName>
+        <default>false</default>
+        <label>Allergy &amp; Respiratory</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardiovascular</fullName>
+        <default>false</default>
+        <label>Cardiovascular</label>
+    </customValue>
+    <customValue>
+        <fullName>Dermatology</fullName>
+        <default>false</default>
+        <label>Dermatology</label>
+    </customValue>
+    <customValue>
+        <fullName>Infectious Disease &amp; Vaccines</fullName>
+        <default>false</default>
+        <label>Infectious Disease &amp; Vaccines</label>
+    </customValue>
+    <customValue>
+        <fullName>Nephrology</fullName>
+        <default>false</default>
+        <label>Nephrology</label>
+    </customValue>
+    <customValue>
+        <fullName>Oncology</fullName>
+        <default>false</default>
+        <label>Oncology</label>
+    </customValue>
+    <customValue>
+        <fullName>Rheumatology</fullName>
+        <default>false</default>
+        <label>Rheumatology</label>
+    </customValue>
+    <description>Global Value Set for Therapeutic Areas. 
+Demen S. 9th March 2023.</description>
+    <masterLabel>Therapeutic Area</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

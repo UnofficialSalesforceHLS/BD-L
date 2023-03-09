@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Clinical</fullName>
+        <default>false</default>
+        <label>Clinical</label>
+    </customValue>
+    <customValue>
+        <fullName>Discontinued</fullName>
+        <default>false</default>
+        <label>Discontinued</label>
+    </customValue>
+    <customValue>
+        <fullName>Discovery</fullName>
+        <default>false</default>
+        <label>Discovery</label>
+    </customValue>
+    <customValue>
+        <fullName>Launched</fullName>
+        <default>false</default>
+        <label>Launched</label>
+    </customValue>
+    <customValue>
+        <fullName>No Development Reported</fullName>
+        <default>false</default>
+        <label>No Development Reported</label>
+    </customValue>
+    <customValue>
+        <fullName>Outlicensed</fullName>
+        <default>false</default>
+        <label>Outlicensed</label>
+    </customValue>
+    <customValue>
+        <fullName>Phase 1 Clinical</fullName>
+        <default>false</default>
+        <label>Phase 1 Clinical</label>
+    </customValue>
+    <customValue>
+        <fullName>Phase 2 Clinical</fullName>
+        <default>false</default>
+        <label>Phase 2 Clinical</label>
+    </customValue>
+    <customValue>
+        <fullName>Phase 3 Clinical</fullName>
+        <default>false</default>
+        <label>Phase 3 Clinical</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Registeration</fullName>
+        <default>false</default>
+        <label>Pre-Registeration</label>
+    </customValue>
+    <customValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </customValue>
+    <customValue>
+        <fullName>Suspended</fullName>
+        <default>false</default>
+        <label>Suspended</label>
+    </customValue>
+    <customValue>
+        <fullName>Withdrawn</fullName>
+        <default>false</default>
+        <label>Withdrawn</label>
+    </customValue>
+    <description>This is a global value list for drug phases. OOTB picklist values are form Cortellis.
+Demen S. 9th March 2023.</description>
+    <masterLabel>Asset Phase</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
