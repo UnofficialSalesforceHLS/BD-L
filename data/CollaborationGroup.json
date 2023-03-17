@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CollaborationGroup",
+                "referenceId": "CollaborationGroupRef1"
+            },
+            "BannerPhotoUrl": "/profilephoto/0F9/B",
+            "CanHaveGuests": false,
+            "CollaborationType": "Private",
+            "Description": "This group is being used to for all BD&L users to share content, best practices etc. It can also be utilized for permissions like list views, reports, or sharing criteria.",
+            "FullPhotoUrl": "https://ruby-computing-213.scratch.file.force.com/profilephoto/7291j0000056jcE/F",
+            "GroupEmail": "0F91j0000009iYlCAI@post.1j-hchneag.cs102.chatter.sandbox.salesforce.com",
+            "HasPrivateFieldsAccess": true,
+            "InformationBody": null,
+            "InformationTitle": null,
+            "IsArchived": false,
+            "IsAutoArchiveDisabled": false,
+            "IsBroadcast": false,
+            "MediumPhotoUrl": "/profilephoto/7291j0000056jcE/M",
+            "MemberCount": 1,
+            "Name": "BD&L Evaluation",
+            "SmallPhotoUrl": "https://ruby-computing-213.scratch.file.force.com/profilephoto/7291j0000056jcE/T"
+        }
+    ]
+}
