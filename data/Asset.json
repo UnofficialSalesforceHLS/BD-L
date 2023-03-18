@@ -8,7 +8,8 @@
             "Name": "Farxiga-AZ",
             "Status": "Active",
             "BDL_Therapeutic_Area__c": "Allergy & Respiratory",
-            "BDL_Phase__c": "Discovery"
+            "BDL_Phase__c": "Discovery",
+            "AccountId": "AccountRef1"
         }
     ]
 }

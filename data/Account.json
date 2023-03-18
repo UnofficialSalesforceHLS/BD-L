@@ -6,13 +6,6 @@
                 "referenceId": "AccountRef1"
             },
             "Name": "Astra Zeneca"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef2"
-            },
-            "Name": "Sample Account for Entitlements"
         }
     ]
 }
