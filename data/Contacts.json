@@ -3,20 +3,20 @@
         {
             "attributes": {
                 "type": "Contact",
-                "referenceId": "ContactRef1"
+                "referenceId": "TonyStark"
             },
             "FirstName": "Tony",
             "LastName": "Stark",
-            "AccountId": "AccountRef1"
+            "AccountId": "@AstraZeneca"
         },
         {
             "attributes": {
                 "type": "Contact",
-                "referenceId": "ContactRef2"
+                "referenceId": "HarleyQuinn"
             },
             "FirstName": "Harley",
-            "LastName": "Quinn",
-            "AccountId": "AccountRef1"
+            "LastName": " Quinn",
+            "AccountId": "@AstraZeneca"
         }
     ]
 }
