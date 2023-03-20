@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pre-Clinical</fullName>
+        <default>false</default>
+        <label>Pre-Clinical</label>
+    </customValue>
+    <customValue>
+        <fullName>Phase I</fullName>
+        <default>false</default>
+        <label>Phase I</label>
+    </customValue>
+    <customValue>
+        <fullName>Phase II</fullName>
+        <default>false</default>
+        <label>Phase II</label>
+    </customValue>
+    <customValue>
+        <fullName>Phase III</fullName>
+        <default>false</default>
+        <label>Phase III</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial</fullName>
+        <default>false</default>
+        <label>Commercial</label>
+    </customValue>
+    <description>List of Development Phases for molecules.
+Demen S. 20th March 2023.</description>
+    <masterLabel>Development Phase</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

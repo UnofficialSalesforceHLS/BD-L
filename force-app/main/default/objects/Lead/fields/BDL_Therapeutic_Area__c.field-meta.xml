@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Therapeutic_Area__c</fullName>
+    <description>List of Therapeutic Areas utilizing the Global Value Set &quot;Therapeutic Area&quot;.
+Demen S. 20th March 2023.</description>
+    <externalId>false</externalId>
+    <label>Therapeutic Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>BDL_Therapeutic_Area</valueSetName>
+    </valueSet>
+</CustomField>

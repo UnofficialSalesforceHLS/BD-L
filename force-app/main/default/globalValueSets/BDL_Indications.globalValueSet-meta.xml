@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Alzheimer&apos;s Disease</fullName>
+        <default>false</default>
+        <label>Alzheimer&apos;s Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>Atrial Fibrillation</fullName>
+        <default>false</default>
+        <label>Atrial Fibrillation</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardioprotective mechanisms</fullName>
+        <default>false</default>
+        <label>Cardioprotective mechanisms</label>
+    </customValue>
+    <customValue>
+        <fullName>Chronic Heart Failure</fullName>
+        <default>false</default>
+        <label>Chronic Heart Failure</label>
+    </customValue>
+    <customValue>
+        <fullName>Diabetic Kidney Disease</fullName>
+        <default>false</default>
+        <label>Diabetic Kidney Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>Diabetic retinopathy (e.g. NPDR/ PDR)</fullName>
+        <default>false</default>
+        <label>Diabetic retinopathy (e.g. NPDR/ PDR)</label>
+    </customValue>
+    <customValue>
+        <fullName>Peripheral Artery Disease</fullName>
+        <default>false</default>
+        <label>Peripheral Artery Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>Polycystic ovary syndrome (PCOS)</fullName>
+        <default>false</default>
+        <label>Polycystic ovary syndrome (PCOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Tumor cell selective induction of apoptosis or other forms of cell death</fullName>
+        <default>false</default>
+        <label>Tumor cell selective induction of apoptosis or other forms of cell death</label>
+    </customValue>
+    <description>List of Indications.
+Demen S. 20th March 2023.</description>
+    <masterLabel>Indications</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Distribution Agreement</fullName>
+        <default>false</default>
+        <label>Distribution Agreement</label>
+    </customValue>
+    <customValue>
+        <fullName>In-Licensing Agreement</fullName>
+        <default>false</default>
+        <label>In-Licensing Agreement</label>
+    </customValue>
+    <customValue>
+        <fullName>M&amp;A</fullName>
+        <default>false</default>
+        <label>M&amp;A</label>
+    </customValue>
+    <customValue>
+        <fullName>Out-Licensing Agreement</fullName>
+        <default>false</default>
+        <label>Out-Licensing Agreement</label>
+    </customValue>
+    <customValue>
+        <fullName>Research Collaboration</fullName>
+        <default>false</default>
+        <label>Research Collaboration</label>
+    </customValue>
+    <description>List of Deal Types typically for leads and opportunities.
+Demen S. 20th March 2023.</description>
+    <masterLabel>Deal Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

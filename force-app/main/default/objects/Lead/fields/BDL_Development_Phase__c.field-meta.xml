@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Development_Phase__c</fullName>
+    <description>List of Development Phases for Molecule.
+Demen S. 20th March 2023.</description>
+    <externalId>false</externalId>
+    <label>Development Phase</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>BDL_Development_Phase</valueSetName>
+    </valueSet>
+</CustomField>

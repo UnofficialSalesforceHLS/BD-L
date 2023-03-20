@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Has_Budget__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to identify if Lead has budget or not.
+Demen S. 20th March 2023.</description>
+    <externalId>false</externalId>
+    <label>Has Budget?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>
