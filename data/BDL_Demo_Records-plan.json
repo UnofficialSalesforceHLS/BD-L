@@ -26,9 +26,9 @@
     {
         "sobject": "Lead",
         "saveRefs": true,
-        "resolveRefs": false,
+        "resolveRefs": true,
         "files": [
-            "Lead.json"
+            "Leads.json"
         ]
     }
 ]
