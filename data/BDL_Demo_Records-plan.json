@@ -15,12 +15,20 @@
             "Contacts.json"
         ]
     },
-        {
+    {
         "sobject": "Asset",
         "saveRefs": true,
         "resolveRefs": true,
         "files": [
             "Assets.json"
+        ]
+    },
+    {
+        "sobject": "Lead",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Lead.json"
         ]
     }
 ]

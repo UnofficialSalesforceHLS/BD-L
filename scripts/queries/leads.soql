@@ -1,0 +1,1 @@
+SELECT Salutation, FirstName,LastName,Title,Company,BDL_Deal_Type__c,Status,BDL_Has___c,BDL_Decision_Maker__c,BDL_Therapeutic_Area__c,BDL_Development_Phase__c,LeadSource,BDL_Indications__c,BDL_DOI__c,BDL_Clinical_Trials__c,BDL_PubMed__c,Phone,Email,MobilePhone,Website,Description,Address  FROM Lead
