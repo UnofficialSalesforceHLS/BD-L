@@ -24,7 +24,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Deal_Type__c</field>
+                <field>BDL_Deal_Type__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>

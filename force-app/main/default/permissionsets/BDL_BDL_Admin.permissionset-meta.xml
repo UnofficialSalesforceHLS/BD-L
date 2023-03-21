@@ -83,6 +83,11 @@ Demen S. 9th March 2023.</description>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.BDL_Deal_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.BDL_Decision_Maker__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -109,11 +114,6 @@ Demen S. 9th March 2023.</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.BDL_Therapeutic_Area__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Lead.Deal_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -20,7 +20,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
-        <content>Home_Page_Default</content>
+        <content>BDL_Evaluation_Home_Page_Default</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -50,7 +50,8 @@
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>This app is being used for the search &amp; evaluation teams before Opportunities are handed over to the Deal Management Team.</description>
+    <description>This app is being used for the search &amp; evaluation teams before Opportunities
+        are handed over to the Deal Management Team.</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>

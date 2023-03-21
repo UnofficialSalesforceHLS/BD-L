@@ -12,6 +12,21 @@ echo sfdx force:source:push --forceoverwrite --loglevel fatal --wait 30
 sfdx force:source:push --forceoverwrite --loglevel fatal --wait 30
 echo -e
 
+echo ${bold}Create BDL User${normal}
+echo sfdx force:user:create -a BDLAdmin -f users/bdl_admin.json
+sfdx force:user:create -a BDLAdmin -f users/bdl_admin.json
+echo -e
+
+echo ${bold}Assign Permission Set${normal}
+echo sfdx force:user:permset:assign -n BDL_BDL_Admin
+sfdx force:user:permset:assign -n BDL_BDL_Admin
+echo -e
+
+echo ${bold}Import Data${normal}
+echo sfdx force:data:tree:import -p ./data/BDL_Demo_Records-plan.json
+sfdx force:data:tree:import -p ./data/BDL_Demo_Records-plan.json
+echo -e
+
 echo ${bold}Open Scratch Org: $1${normal}
 echo sfdx force:org:open
 sfdx force:org:open

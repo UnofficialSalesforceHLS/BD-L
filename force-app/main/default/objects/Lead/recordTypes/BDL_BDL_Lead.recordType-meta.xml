@@ -5,6 +5,29 @@
     <businessProcess>BDL Process</businessProcess>
     <label>BD&amp;L Lead</label>
     <picklistValues>
+        <picklist>BDL_Deal_Type__c</picklist>
+        <values>
+            <fullName>Distribution Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Licensing Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%26A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out-Licensing Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Collaboration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>BDL_Development_Phase__c</picklist>
         <values>
             <fullName>Commercial</fullName>
@@ -94,29 +117,6 @@
         </values>
         <values>
             <fullName>Rheumatology</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Deal_Type__c</picklist>
-        <values>
-            <fullName>Distribution Agreement</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>In-Licensing Agreement</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>M%26A</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Out-Licensing Agreement</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Research Collaboration</fullName>
             <default>false</default>
         </values>
     </picklistValues>
