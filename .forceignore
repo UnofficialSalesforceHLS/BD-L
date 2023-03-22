@@ -13,4 +13,4 @@ package.xml
 
 # excluding
 force-app/main/default/profiles
-src/main/default/appMenus/AppSwitcher.appMenu-meta.xml
+force-app/main/default/appMenus/AppSwitcher.appMenu-meta.xml

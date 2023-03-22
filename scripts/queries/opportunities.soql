@@ -1,0 +1,2 @@
+SELECT AccountId, Amount, BDL_CDA_Execution_Date__c, BDL_CDA_Status__c, BDL_Clinical_Trials__c, BDL_DOI__c, BDL_Feasibility_Study_Agreement_Status__c, BDL_Material_Transfer_Agreement_Status__c, BDL_Risk_Assessment_Status__c, BDL_PubMed__c, BDL_Therapeutic_Area__c, CampaignId, CloseDate, Description, Name, NextStep, StageName, Type
+  FROM Opportunity

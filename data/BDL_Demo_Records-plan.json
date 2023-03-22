@@ -30,5 +30,13 @@
         "files": [
             "Leads.json"
         ]
+    },
+    {
+        "sobject": "Opportunity",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Opportunity.json"
+        ]
     }
 ]
