@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>BDL Out-Licensing</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Handoff to Alliance Management Team&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Alliances</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Collaborate with Alliances and please make sure all documents are attached to this deal.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Closed Monitor</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Provide Reasons why this Deal didn&amp;#39;t come to an agreement. Anything we can do better next time? Add to the comments.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Closed No Agreement</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Tasks to complete :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Source Deal Team&lt;/li&gt;&lt;li&gt;Sign and upload finalized Concept/Term Sheet&lt;/li&gt;&lt;li&gt;Manage Sanction Contracting Approval&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Concept Sheet/Term Sheet</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>BDL_CDA_Status__c</fieldNames>
+        <fieldNames>BDL_CDA_Execution_Date__c</fieldNames>
+        <info>&lt;p&gt;Tasks to complete :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sign and upload CDA&lt;/li&gt;&lt;li&gt;Gather and upload Confidential Data&lt;/li&gt;&lt;li&gt;Capture feedback from stakeholders&lt;/li&gt;&lt;li&gt;Gain agreement to move forward to Due Diligence&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Confidential Assessment</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>BDL_Material_Transfer_Agreement_Status__c</fieldNames>
+        <fieldNames>BDL_Feasibility_Study_Agreement_Status__c</fieldNames>
+        <info>&lt;p&gt;The aim of the due diligence stage is to ensure that any decision taken regarding the company in question is an informed one, maximizing your chances of adding value in partnering transaction.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Tasks to complete :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Source Due Diligence Team&lt;/li&gt;&lt;li&gt;Create and upload DD deliverables&lt;/li&gt;&lt;li&gt;Manage Material Transfer Agreement&lt;/li&gt;&lt;li&gt;Manage 3rd Party review&lt;/li&gt;&lt;li&gt;Approve to move forward with Concept/Term Sheet&lt;/li&gt;&lt;li&gt;Manage Feasibility Study Agreement&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Due Diligence</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>BDL_Therapeutic_Area__c</fieldNames>
+        <fieldNames>BDL_Development_Phase__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Identification is completed when a decision is made to move forward with a Confidential Assessment. The Opportunity will be assigned to a Business Development Project Lead.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Identification</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ContractId</fieldNames>
+        <info>&lt;p&gt;Tasks to complete :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Create/Approve final contract&lt;/li&gt;&lt;li&gt;Sign and upload final Contract&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Negotiate &amp; Contract</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>BDL_Risk_Assessment_Status__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Risk Assessment Team will take over and complete all necessary steps. Please provide all information your risk assessment colleagues need to progress.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Risk Assessment</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>BDL_BD_L_Out_Licensing</recordTypeName>
+</PathAssistant>

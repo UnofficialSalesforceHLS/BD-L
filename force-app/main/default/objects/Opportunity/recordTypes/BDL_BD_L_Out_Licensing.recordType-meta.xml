@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_BD_L_Out_Licensing</fullName>
+    <active>true</active>
+    <businessProcess>BDL Out-Licensing Process</businessProcess>
+    <compactLayoutAssignment>BDL_BD_L_Compact_Layout</compactLayoutAssignment>
+    <label>BD&amp;L Out-Licensing</label>
+    <picklistValues>
+        <picklist>BDL_CDA_Status__c</picklist>
+        <values>
+            <fullName>Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BDL_Development_Phase__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FDA Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending FDA Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Clinical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BDL_Feasibility_Study_Agreement_Status__c</picklist>
+        <values>
+            <fullName>Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BDL_Material_Transfer_Agreement_Status__c</picklist>
+        <values>
+            <fullName>Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BDL_Risk_Assessment_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BDL_Therapeutic_Area__c</picklist>
+        <values>
+            <fullName>Allergy %26 Respiratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiovascular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dermatology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infectious Disease %26 Vaccines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nephrology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rheumatology</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Distribution Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Licensing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%26A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out-Licensing Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Collaboration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

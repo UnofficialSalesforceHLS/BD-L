@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_CDA_Status__c</fullName>
+    <description>CDA Status for Opportunities. This list can be adjusted but keep in mind that it&apos;s used by a Validation Rule OOTB. Please deactivate if needed. If integrated with another system, keep in mind that these values are restricted currently. you can deactivate the restriction via the checkbox above.
+Demen S. 22nd March 2023.</description>
+    <externalId>false</externalId>
+    <label>CDA Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Started</fullName>
+                <default>false</default>
+                <label>Not Started</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Executed</fullName>
+                <default>false</default>
+                <label>Executed</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

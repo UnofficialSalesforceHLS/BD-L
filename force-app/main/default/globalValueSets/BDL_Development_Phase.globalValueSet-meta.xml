@@ -21,6 +21,16 @@
         <label>Phase III</label>
     </customValue>
     <customValue>
+        <fullName>Pending FDA Approval</fullName>
+        <default>false</default>
+        <label>Pending FDA Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>FDA Approval</fullName>
+        <default>false</default>
+        <label>FDA Approval</label>
+    </customValue>
+    <customValue>
         <fullName>Commercial</fullName>
         <default>false</default>
         <label>Commercial</label>

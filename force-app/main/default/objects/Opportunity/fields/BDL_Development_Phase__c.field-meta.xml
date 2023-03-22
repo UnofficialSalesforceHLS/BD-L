@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Development_Phase__c</fullName>
+    <description>Development Phase for Opportunity using the global value set &apos;development phase&apos;. If you need new values, please add to the value set.
+Demen S. 22nd March 2023.ö</description>
+    <externalId>false</externalId>
+    <label>Development Phase</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>BDL_Development_Phase</valueSetName>
+    </valueSet>
+</CustomField>

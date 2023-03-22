@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_DOI__c</fullName>
+    <description>DOI for this Deal. If DOI information is needed in detail or multiple DOI Links within the system you can create a custom object.
+Demen S. 22nd March 2023.</description>
+    <externalId>false</externalId>
+    <label>DOI</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>
