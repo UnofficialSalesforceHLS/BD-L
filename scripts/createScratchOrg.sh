@@ -23,8 +23,8 @@ sfdx force:user:permset:assign -n BDL_BDL_Admin
 echo -e
 
 echo ${bold}Import Data${normal}
-echo sfdx force:data:tree:import -p ./data/BDL_Demo_Records-plan.json
-sfdx force:data:tree:import -p ./data/BDL_Demo_Records-plan.json
+echo sfdx texei:data:import --inputdir ./data
+sfdx texei:data:import --inputdir ./data
 echo -e
 
 echo ${bold}Open Scratch Org: $1${normal}

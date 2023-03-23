@@ -37,6 +37,9 @@
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "opportunitySettings": {
+      "enableOpportunityTeam": true
     }
   }
 }

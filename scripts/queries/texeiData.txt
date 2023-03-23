@@ -1,0 +1,7 @@
+Export Example:
+sfdx texei:data:export --objects Account,Contact,MyCustomObject__c --outputdir ./data --targetusername MyOrg
+
+Import Example:
+sfdx texei:data:import --inputdir ./data --targetusername MyOtherScratchOrg
+
+Source: https://texei.com/conseils/easily-load-data-into-your-scratch-org-or-sandbox-part-1/
