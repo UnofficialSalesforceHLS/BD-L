@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Paid_to_Date__c</fullName>
+    <description>Roll-up summary field adding the individual payments from BDL_Obligation_Payment object.
+Demen S. 27th March 2023.</description>
+    <externalId>false</externalId>
+    <label>Paid to Date</label>
+    <summarizedField>BDL_Obligation_Payment__c.BDL_Amount__c</summarizedField>
+    <summaryForeignKey>BDL_Obligation_Payment__c.BDL_Obligation__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

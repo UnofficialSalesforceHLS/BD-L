@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Asset__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup for this projects main asset.
+Demen S. 27th March 2023</description>
+    <externalId>false</externalId>
+    <label>Asset</label>
+    <referenceTo>Asset</referenceTo>
+    <relationshipLabel>Alliances Projects</relationshipLabel>
+    <relationshipName>Alliances_Projects</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

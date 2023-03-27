@@ -27,6 +27,6 @@
     </customValue>
     <description>List of Deal Types typically for leads and opportunities.
 Demen S. 20th March 2023.</description>
-    <masterLabel>Deal Types</masterLabel>
+    <masterLabel>BDL Deal Types</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

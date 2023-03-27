@@ -37,6 +37,6 @@
     </customValue>
     <description>List of Development Phases for molecules.
 Demen S. 20th March 2023.</description>
-    <masterLabel>Development Phase</masterLabel>
+    <masterLabel>BDL Development Phase</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

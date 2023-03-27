@@ -997,6 +997,6 @@
     </customValue>
     <description>List of all countries source: https://www.dfa.ie/travel/travel-advice/a-z-list-of-countries/
 Demen S. 17th March 2023.</description>
-    <masterLabel>Countries</masterLabel>
+    <masterLabel>BDL Countries</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

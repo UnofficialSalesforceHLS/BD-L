@@ -1,0 +1,20 @@
+{
+  "attributes": {
+    "type": "Campaign"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Campaign",
+        "referenceId": "CampaignRef1"
+      },
+      "Name": "Farxiga Outlicensing",
+      "Type": "Partners",
+      "Status": "Planned",
+      "StartDate": "2023-06-01",
+      "EndDate": "2023-12-31",
+      "IsActive": true,
+      "Description": "Planned Webinar to meet strategic partners for our planned in-licensing portfolio strategy."
+    }
+  ]
+}

@@ -37,6 +37,6 @@
     </customValue>
     <description>Global Value Set for Therapeutic Areas. 
 Demen S. 9th March 2023.</description>
-    <masterLabel>Therapeutic Area</masterLabel>
+    <masterLabel>BDL Therapeutic Area</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

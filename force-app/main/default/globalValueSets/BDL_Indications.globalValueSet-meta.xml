@@ -47,6 +47,6 @@
     </customValue>
     <description>List of Indications.
 Demen S. 20th March 2023.</description>
-    <masterLabel>Indications</masterLabel>
+    <masterLabel>BDL Indications</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

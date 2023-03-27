@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>BDL_Project_Status_Indicator__c</columns>
+    <columns>BDL_Phase__c</columns>
+    <columns>BDL_Territories__c</columns>
+    <columns>BDL_Exceptions__c</columns>
+    <columns>BDL_Kickoff__c</columns>
+    <columns>BDL_Deadline__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

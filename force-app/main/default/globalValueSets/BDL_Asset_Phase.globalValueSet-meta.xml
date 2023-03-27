@@ -67,6 +67,6 @@
     </customValue>
     <description>This is a global value list for drug phases. OOTB picklist values are form Cortellis.
 Demen S. 9th March 2023.</description>
-    <masterLabel>Asset Phase</masterLabel>
+    <masterLabel>BDL Asset Phase</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
