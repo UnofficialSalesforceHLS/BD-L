@@ -41,3 +41,4 @@ $RECYCLE.BIN/
 
 # excluding
 force-app/main/default/profiles
+./dataTESTING

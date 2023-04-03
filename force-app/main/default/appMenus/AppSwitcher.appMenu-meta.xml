@@ -77,11 +77,15 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>BDL_Evaluation</name>
+        <name>standard__DataManager</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>BDL_Alliance_Management</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>BDL_Evaluation</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <description>This flow will update the initiating record with the number of days to be extended by the user and will kick-off the &quot;BDL Milestone: Update Successors with extended Date&quot; flow, updating successors.
+Demen S. 3rd April 2023.</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>This formula takes the deadline prior to the update and extends it by the number of days added by the user.
+Demen S. 3rd April 2023.</description>
+        <name>BDL_calculateExtendedDate</name>
+        <dataType>Date</dataType>
+        <expression>{!$Record__Prior.BDL_Deadline__c} + {!$Record.BDL_Extended_Dates__c}</expression>
+    </formulas>
+    <interviewLabel>BD&amp;L Milesonte: update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>BD&amp;L Milestone: Update Extended Date and Trigger Successor Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>This flow updates the extended date on the triggering record and will let the other flow &quot;extendMilestones&quot; update related successor records with the same extension of dates.
+Demen S. 3rd April 2023.</description>
+        <name>BDL_updateExtendedDate</name>
+        <label>updateExtendedDate</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <inputAssignments>
+            <field>BDL_Deadline__c</field>
+            <value>
+                <elementReference>BDL_calculateExtendedDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>BDL_updateExtendedDate</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>BDL_Extended_Dates__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>BDL_Milestone__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,43 @@
+{
+  "attributes": {
+    "type": "BDL_Obligation__c"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "BDL_Obligation__c",
+        "referenceId": "ObligationRef1"
+      },
+      "Name": "Royalty Payments",
+      "RecordTypeId": "BDL_Financial",
+      "BDL_Alliance_Project__c": "AllianceProjectRef1",
+      "BDL_Due_Amount__c": 1000000,
+      "BDL_Due_Date__c": "2023-12-31",
+      "BDL_Status__c": "Open"
+    },
+    {
+      "attributes": {
+        "type": "BDL_Obligation__c",
+        "referenceId": "ObligationRef2"
+      },
+      "Name": "1st Milestone Payment",
+      "RecordTypeId": "BDL_Financial",
+      "BDL_Alliance_Project__c": "AllianceProjectRef1",
+      "BDL_Due_Amount__c": 500000,
+      "BDL_Due_Date__c": "2023-04-30",
+      "BDL_Status__c": "Open"
+    },
+    {
+      "attributes": {
+        "type": "BDL_Obligation__c",
+        "referenceId": "ObligationRef3"
+      },
+      "Name": "Site Reports for LATAM",
+      "RecordTypeId": "BDL_Non_Financial",
+      "BDL_Alliance_Project__c": "AllianceProjectRef1",
+      "BDL_Due_Amount__c": null,
+      "BDL_Due_Date__c": "2023-05-31",
+      "BDL_Status__c": "Open"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "attributes": {
+    "type": "BDL_Milestone__c"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "BDL_Milestone__c",
+        "referenceId": "BD&LMilestoneRef1"
+      },
+      "Name": "Setup B-Weekly Meeting Cadence3",
+      "BDL_Alliance_Project__c": "AllianceProjectRef1",
+      "BDL_Deadline__c": "2023-06-04",
+      "BDL_Kickoff__c": "2023-04-10",
+      "BDL_Status__c": "Not Started",
+      "BDL_Extended_Dates__c": 2,
+      "BDL_Description__c": null
+    },
+    {
+      "attributes": {
+        "type": "BDL_Milestone__c",
+        "referenceId": "BD&LMilestoneRef2"
+      },
+      "Name": "Make sure that project structure is setup",
+      "BDL_Alliance_Project__c": "AllianceProjectRef1",
+      "BDL_Deadline__c": "2023-06-27",
+      "BDL_Kickoff__c": "2023-04-13",
+      "BDL_Predecessor_Milestone__c": "BD&LMilestoneRef1",
+      "BDL_Status__c": "Not Started",
+      "BDL_Extended_Dates__c": 3,
+      "BDL_Description__c": null
+    }
+  ]
+}

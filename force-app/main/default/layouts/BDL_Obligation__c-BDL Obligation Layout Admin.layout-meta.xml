@@ -102,6 +102,9 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>BDL_Payment_Status__c</fields>
+        <fields>BDL_Date_of_Payment__c</fields>
+        <fields>BDL_Amount__c</fields>
         <relatedList>BDL_Obligation_Payment__c.BDL_Obligation__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
@@ -110,7 +113,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1j000006csCA</masterLabel>
+        <masterLabel>00h3O000002fmaZ</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

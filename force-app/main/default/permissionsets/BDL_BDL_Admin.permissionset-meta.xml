@@ -132,6 +132,41 @@ Demen S. 9th March 2023.</description>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>BDL_Milestone__c.BDL_Deadline__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Milestone__c.BDL_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Milestone__c.BDL_Extended_Dates__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Milestone__c.BDL_Kickoff__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Milestone__c.BDL_Predecessor_Milestone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Milestone__c.BDL_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Milestone__c.BDL_Successor_Milestone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BDL_Obligation_Payment__c.BDL_Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -302,6 +337,11 @@ Demen S. 9th March 2023.</description>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.BDL_Development_Phase__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.BDL_Feasibility_Study_Agreement_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -424,6 +464,15 @@ Demen S. 9th March 2023.</description>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>BDL_Milestone__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>BDL_Obligation_Payment__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -456,7 +505,7 @@ Demen S. 9th March 2023.</description>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
-        <allowDelete>false</allowDelete>
+        <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
@@ -497,6 +546,10 @@ Demen S. 9th March 2023.</description>
     </recordTypeVisibilities>
     <tabSettings>
         <tab>BDL_Alliance_Project__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>BDL_Milestone__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>

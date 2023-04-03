@@ -28,7 +28,12 @@
         "Chatbot",
         "CMSMaxContType",
         "CMSMaxNodesPerContType",
-        "CMSUnlimitedUse"
+        "CMSUnlimitedUse",
+        "WavePlatform",
+        "InsightsPlatform",
+        "EinsteinArticleRecommendations",
+        "EinsteinBuilderFree",
+        "DevelopmentWave"
     ],
     "description": "This scratch org showcases how the BD&L Process in Pharmaceutical Companies can be used. From evaluation, to deal & alliance management and risk analysis. Demen S. 1st Mar 2023",
   "settings": {

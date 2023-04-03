@@ -1,0 +1,17 @@
+{
+  "attributes": {
+    "type": "BDL_Obligation_Payment__c"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "BDL_Obligation_Payment__c",
+        "referenceId": "ObligationPaymentRef1"
+      },
+      "BDL_Obligation__c": "ObligationRef2",
+      "BDL_Amount__c": 100000,
+      "BDL_Date_of_Payment__c": "2023-04-03",
+      "BDL_Payment_Status__c": "Paid"
+    }
+  ]
+}

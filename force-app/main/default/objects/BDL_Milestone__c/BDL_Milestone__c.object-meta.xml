@@ -128,30 +128,23 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>BDL_Alliance_Project_Record_Page</content>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>BDL_Alliance_Project_Record_Page</content>
         <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This object is tracking all project relevant topics for Alliance Managers like:
-        Obligations, Health Status, Steering Commitees, Task Assignments, Documentsharing and more.
-        Demen S. March 27th 2023</description>
+    <description>Keeping track of important Milestones for Alliances Management. This can be extended to be used for other teams as well. If more sophisticated project management tasks are required, there is Milestones PM on the AppExchange which is free at the time of writing this post.
+Demen S. 3rd April 2023.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -162,17 +155,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Alliance Project</label>
+    <label>BD&amp;L Milestone</label>
     <nameField>
-        <label>Alliance Name</label>
+        <label>BD&amp;L Milestone Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Alliances Projects</pluralLabel>
+    <pluralLabel>BD&amp;L Milestones</pluralLabel>
     <searchLayouts>
-        <searchResultsAdditionalFields>BDL_Project_Status_Indicator__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>BDL_Phase__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>BDL_Territories__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>BDL_Exceptions__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BDL_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BDL_Alliance_Project__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>BDL_Kickoff__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>BDL_Deadline__c</searchResultsAdditionalFields>
     </searchLayouts>

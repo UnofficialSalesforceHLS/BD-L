@@ -1,0 +1,19 @@
+{
+  "attributes": {
+    "type": "Task"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef1"
+      },
+      "WhatId": "OpportunityRef1",
+      "Subject": "Meet with VP of TA",
+      "ActivityDate": "2023-04-30",
+      "Status": "Not Started",
+      "Priority": "Normal",
+      "TaskSubtype": "Task"
+    }
+  ]
+}

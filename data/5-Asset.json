@@ -12,11 +12,11 @@
       "Name": "Farxiga-AZ",
       "Status": "Active",
       "RecordTypeId": "BDL_In_Licensing",
+      "BDL_Additional_Information__c": "<p></p>",
       "BDL_Brand_Name__c": "Farxiga-AZ",
-      "BDL_Phase__c": "Phase 2 Clinical",
+      "BDL_Reason_for_In_Out_Licensing__c": "<p>Meets our strategic portfolio and has great market sales results.</p>",
       "BDL_Therapeutic_Area__c": "Cardiovascular",
-      "BDL_Additional_Information__c": "<p><img src=\"https://ruby-computing-213.scratch.file.force.com/servlet/rtaImage?eid=02i1j00000I9qOk&amp;feoid=00N1j00000c47mS&amp;refid=0EM1j000000PSfq\" alt=\"Screenshot 2023-03-23 at 17.45.28.png\"></img></p>",
-      "BDL_Reason_for_In_Out_Licensing__c": "<p>Meets our strategic portfolio and has great market sales results.</p>"
+      "BDL_Phase__c": "Phase 2 Clinical"
     }
   ]
 }

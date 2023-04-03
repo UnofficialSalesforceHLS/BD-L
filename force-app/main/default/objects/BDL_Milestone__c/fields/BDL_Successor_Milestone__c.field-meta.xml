@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Successor_Milestone__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Self Relationship to be able to record successor milestones and create dependencies.
+Demen S. 3rd April 2023.</description>
+    <externalId>false</externalId>
+    <label>Successor Milestone</label>
+    <referenceTo>BDL_Milestone__c</referenceTo>
+    <relationshipLabel>BD&amp;L Milestones (Successor Milestone)</relationshipLabel>
+    <relationshipName>BDL_Successor_Milestones</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

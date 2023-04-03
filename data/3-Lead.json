@@ -20,15 +20,15 @@
       "Description": "Worked with Dr. Pym a few years back. Very numbers driven and very interested in Cell & Gene Therapy.",
       "LeadSource": "Partner",
       "Status": "Open",
-      "BDL_Therapeutic_Area__c": "Cardiovascular",
-      "BDL_Development_Phase__c": "Phase II",
-      "BDL_Indications__c": "Alzheimer's Disease;Cardioprotective mechanisms;Diabetic Kidney Disease",
-      "BDL_DOI__c": "s00115-021-01222-w",
-      "BDL_PubMed__c": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8648638/",
       "BDL_Clinical_Trials__c": "https://clinicaltrials.gov/ct2/show/NCT03991988?cond=alzheimer&draw=2&rank=1",
+      "BDL_DOI__c": "s00115-021-01222-w",
+      "BDL_Deal_Type__c": "M&A",
       "BDL_Decision_Maker__c": true,
+      "BDL_Development_Phase__c": "Phase II",
       "BDL_Has_Budget__c": true,
-      "BDL_Deal_Type__c": "M&A"
+      "BDL_Indications__c": "Alzheimer's Disease;Cardioprotective mechanisms;Diabetic Kidney Disease",
+      "BDL_PubMed__c": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8648638/",
+      "BDL_Therapeutic_Area__c": "Cardiovascular"
     },
     {
       "attributes": {
@@ -47,15 +47,15 @@
       "Description": "Worked with Ferry at Novartis in the best. Setting up strategic Portfolio for C&GT at the moment.",
       "LeadSource": "Web",
       "Status": "Open",
-      "BDL_Therapeutic_Area__c": "Cardiovascular",
-      "BDL_Development_Phase__c": "Phase I",
-      "BDL_Indications__c": "Alzheimer's Disease",
-      "BDL_DOI__c": "s00115-021-01222-w",
-      "BDL_PubMed__c": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8648638/",
       "BDL_Clinical_Trials__c": "https://clinicaltrials.gov/ct2/show/NCT03991988?cond=alzheimer&draw=2&rank=1",
+      "BDL_DOI__c": "s00115-021-01222-w",
+      "BDL_Deal_Type__c": "M&A",
       "BDL_Decision_Maker__c": true,
+      "BDL_Development_Phase__c": "Phase I",
       "BDL_Has_Budget__c": true,
-      "BDL_Deal_Type__c": "M&A"
+      "BDL_Indications__c": "Alzheimer's Disease",
+      "BDL_PubMed__c": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8648638/",
+      "BDL_Therapeutic_Area__c": "Cardiovascular"
     }
   ]
 }

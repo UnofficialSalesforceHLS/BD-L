@@ -1,0 +1,22 @@
+{
+  "attributes": {
+    "type": "Event"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Event",
+        "referenceId": "EventRef1"
+      },
+      "WhatId": "AccountRef2",
+      "Subject": "Setup Review Call",
+      "ActivityDateTime": "2023-04-05T14:00:00.000+0000",
+      "ActivityDate": "2023-04-05",
+      "DurationInMinutes": 60,
+      "StartDateTime": "2023-04-05T14:00:00.000+0000",
+      "EndDateTime": "2023-04-05T15:00:00.000+0000",
+      "ShowAs": "Busy",
+      "EventSubtype": "Event"
+      }
+  ]
+}

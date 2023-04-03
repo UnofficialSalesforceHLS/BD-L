@@ -13,6 +13,8 @@
       "Status": "Planned",
       "StartDate": "2023-06-01",
       "EndDate": "2023-12-31",
+      "ExpectedResponse": 0,
+      "NumberSent": 0,
       "IsActive": true,
       "Description": "Planned Webinar to meet strategic partners for our planned in-licensing portfolio strategy."
     }

@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "type": "BDL_Alliance_Project__c"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "BDL_Alliance_Project__c",
+        "referenceId": "AllianceProjectRef1"
+      },
+      "Name": "AZ-Farxiga In-Licensing",
+      "BDL_Deal__c": "OpportunityRef1",
+      "BDL_Asset__c": "AssetRef1",
+      "BDL_Deadline__c": "2023-12-31",
+      "BDL_Description__c": "<p>For the first 6 months there will be a higher cadence in meeting and reviewing project goals as we don&#39;t have a long history of working with this partner. Cadence may be reduced and updated once we gather more experience working with them.</p>",
+      "BDL_Exceptions__c": null,
+      "BDL_Goals__c": "<p>This is a strategic initiative to increase our presence for cardiovascular drugs in the EU &amp; USA and will help us to overcome the sales staff shortages that we are currently facing.</p>",
+      "BDL_Kickoff__c": "2023-04-01",
+      "BDL_Phase__c": "Active",
+      "BDL_Project_Status__c": "Green",
+      "BDL_Reason_for_Red_Status__c": null,
+      "BDL_Territories__c": "EU;USA",
+      "BDL_Type__c": "In-Licensing Agreement"
+    }
+  ]
+}
