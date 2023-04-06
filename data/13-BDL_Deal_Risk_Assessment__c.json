@@ -1,0 +1,33 @@
+{
+  "attributes": {
+    "type": "BDL_Deal_Risk_Assessment__c"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "BDL_Deal_Risk_Assessment__c",
+        "referenceId": "DealRiskAssessmentRef1"
+      },
+      "BDL_Opportunity__c": "OpportunityRef1",
+      "BDL_Assessment_Type__c": "Supply Point Evaluation",
+      "BDL_Risk_Description__c": "Still waiting for Site Inspection results from 2022",
+      "BDL_Mitigation_Plan__c": "Closely collaborating with Alliances and making sure documents come in as fast as possible.",
+      "BDL_Risk__c": "Medium",
+      "BDL_Role__c": "Regulatory",
+      "BDL_Summary__c": "In Progress"
+    },
+    {
+      "attributes": {
+        "type": "BDL_Deal_Risk_Assessment__c",
+        "referenceId": "DealRiskAssessmentRef2"
+      },
+      "BDL_Opportunity__c": "OpportunityRef1",
+      "BDL_Assessment_Type__c": "Clinical",
+      "BDL_Risk_Description__c": "To be assessed on how this fits into our portfolio strategy.",
+      "BDL_Mitigation_Plan__c": "Needs to be raised with deal team and prognoses to be calculated.",
+      "BDL_Risk__c": "Medium",
+      "BDL_Role__c": "Therapeutics Area VP",
+      "BDL_Summary__c": null
+    }
+  ]
+}
