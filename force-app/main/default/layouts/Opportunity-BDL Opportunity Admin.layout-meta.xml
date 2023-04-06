@@ -309,6 +309,16 @@
         <fields>TeamMemberRole</fields>
         <relatedList>RelatedOpportunitySalesTeam</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>BDL_Risk_Status__c</fields>
+        <fields>BDL_Role__c</fields>
+        <fields>BDL_Assessment_Type__c</fields>
+        <fields>BDL_Risk_Description__c</fields>
+        <fields>BDL_Mitigation_Plan__c</fields>
+        <fields>BDL_Summary__c</fields>
+        <relatedList>BDL_Deal_Risk_Assessment__c.BDL_Opportunity__c</relatedList>
+    </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>
@@ -316,7 +326,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1j000006WJSH</masterLabel>
+        <masterLabel>00h3O000002fmae</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Assessment_Type__c</fullName>
+    <description>Type of Assessment.
+Demen S. 6th April 2023.</description>
+    <externalId>false</externalId>
+    <label>Assessment Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partner Selection</fullName>
+                <default>false</default>
+                <label>Partner Selection</label>
+            </value>
+            <value>
+                <fullName>Supply Point Evaluation</fullName>
+                <default>false</default>
+                <label>Supply Point Evaluation</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

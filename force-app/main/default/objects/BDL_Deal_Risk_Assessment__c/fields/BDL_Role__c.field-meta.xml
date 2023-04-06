@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Role__c</fullName>
+    <description>Role of the assessment taker.
+Demen S. 6th April 2023.</description>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Regulatory</fullName>
+                <default>false</default>
+                <label>Regulatory</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Clinical</fullName>
+                <default>false</default>
+                <label>Clinical</label>
+            </value>
+            <value>
+                <fullName>Therapeutics Area VP</fullName>
+                <default>false</default>
+                <label>Therapeutics Area VP</label>
+            </value>
+            <value>
+                <fullName>Alliances Partner</fullName>
+                <default>false</default>
+                <label>Alliances Partner</label>
+            </value>
+            <value>
+                <fullName>Business Development</fullName>
+                <default>false</default>
+                <label>Business Development</label>
+            </value>
+            <value>
+                <fullName>Commercials / Offer</fullName>
+                <default>false</default>
+                <label>Commercials / Offer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

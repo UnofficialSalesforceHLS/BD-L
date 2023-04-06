@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDL_Risk_Status__c</fullName>
+    <description>Formula to display traffic light icons based on risk impact.
+Demen S. 6th April 2023.</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+CASE(BDL_Risk__c,
+&quot;Low&quot;, &quot;/img/samples/light_green.gif&quot;,
+&quot;Medium&quot;, &quot;/img/samples/light_yellow.gif&quot;,
+&quot;High&quot;, &quot;/img/samples/light_red.gif&quot;,
+&quot;/s.gif&quot;),
+&quot;status color&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Risk Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

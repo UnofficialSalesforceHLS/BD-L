@@ -127,6 +127,41 @@ Demen S. 9th March 2023.</description>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>BDL_Deal_Risk_Assessment__c.BDL_Assessment_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Deal_Risk_Assessment__c.BDL_Mitigation_Plan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Deal_Risk_Assessment__c.BDL_Risk_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>BDL_Deal_Risk_Assessment__c.BDL_Risk_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Deal_Risk_Assessment__c.BDL_Risk__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Deal_Risk_Assessment__c.BDL_Role__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BDL_Deal_Risk_Assessment__c.BDL_Summary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BDL_Market_Performance__c.BDL_Country__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -455,6 +490,15 @@ Demen S. 9th March 2023.</description>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>BDL_Deal_Risk_Assessment__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>BDL_Market_Performance__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -546,6 +590,10 @@ Demen S. 9th March 2023.</description>
     </recordTypeVisibilities>
     <tabSettings>
         <tab>BDL_Alliance_Project__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>BDL_Deal_Risk_Assessment__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
