@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>BDL_Alliance_Project__c$Name</field>
+    </columns>
+    <columns>
+        <field>BDL_Alliance_Project__c$BDL_Type__c</field>
+    </columns>
+    <columns>
+        <field>BDL_Alliance_Project__c$BDL_Phase__c</field>
+    </columns>
+    <columns>
+        <field>BDL_Alliance_Project__c$BDL_Deal__c</field>
+    </columns>
+    <columns>
+        <field>BDL_Alliance_Project__c$BDL_Project_Status_Indicator__c</field>
+    </columns>
+    <columns>
+        <field>BDL_Alliance_Project__c$BDL_Goals__c</field>
+    </columns>
+    <columns>
+        <field>BDL_Alliance_Project__c$BDL_Description__c</field>
+    </columns>
+    <description>List of Alliance Projects</description>
+    <format>Tabular</format>
+    <name>My Alliance Projects</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>BDL_Alliances_Projects_with_Milestones__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>BDL_Alliance_Project__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

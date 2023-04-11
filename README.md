@@ -3,13 +3,14 @@
 ## Team
 ![BD&L? Team](./img/team_img.png "Team")
 
-## All Documentation
-
-## Admin Guide
+## Documentation
+[Documentation](https://salesforce.quip.com/0imWAzyqPWcI "Documentation")
 
 ## ERD
 
+
 ## FAQs
+
 
 ## Deploy this to your org
 <a href="https://githubsfdeploy.herokuapp.com?owner=UnofficialSalesforceHLS&repo=BD-L">
