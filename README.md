@@ -7,7 +7,11 @@
 [Documentation](https://salesforce.quip.com/0imWAzyqPWcI "Documentation")
 
 ## ERD
+![ERD](./img/erd_img.png "ERD")
 
+
+## Capability Blueprint
+![Blueprint](./img/blueprint_img.png "Blueprint")
 
 ## FAQs
 
