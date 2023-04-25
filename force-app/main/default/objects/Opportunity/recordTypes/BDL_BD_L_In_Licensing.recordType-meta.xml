@@ -184,10 +184,6 @@
             <fullName>Web</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Word of mouth</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Type</picklist>
