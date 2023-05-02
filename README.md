@@ -1,7 +1,5 @@
-# BD&L on Salesforce
+## Salesforce Platform Advantage
 ![PlatformAdvantage](./img/platform_advantage.png "PlatformAdvantage")
-
-## BDL and the Salesforce Platform
 
 ## BDL 360
 ![BD&L? 360](./img/BDL360.png "BD&L?360")
