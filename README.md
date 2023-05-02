@@ -1,5 +1,5 @@
 # BD&L on Salesforce
-
+![PlatformAdvantage](./img/platform_advantage.png "PlatformAdvantage")
 
 ## BDL and the Salesforce Platform
 
