@@ -3,15 +3,11 @@
     <fullName>BDL Process</fullName>
     <isActive>true</isActive>
     <values>
-        <fullName>Contacted</fullName>
+        <fullName>Working - Contacted</fullName>
         <default>false</default>
     </values>
     <values>
-        <fullName>New</fullName>
+        <fullName>Open - Not Contacted</fullName>
         <default>true</default>
-    </values>
-    <values>
-        <fullName>Qualified</fullName>
-        <default>false</default>
     </values>
 </BusinessProcess>
