@@ -91,29 +91,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>ConsequenceOfFailure</picklist>
-        <values>
-            <fullName>Critical</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Insignificant</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Major</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Minor</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Moderate</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>DigitalAssetStatus</picklist>
         <values>
             <fullName>Error</fullName>

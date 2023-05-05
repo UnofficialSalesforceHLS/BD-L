@@ -8,8 +8,9 @@
         <application>BDL_Evaluation</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <description>This permissions set will provide full admin rights to users for the entire BD&amp;L package. Contains Delete permission as well, so please use with caution.
-Demen S. 9th March 2023.</description>
+    <description>This permissions set will provide full admin rights to users for the entire
+        BD&amp;L package. Contains Delete permission as well, so please use with caution.
+        Demen S. 9th March 2023.</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Asset.AccountId</field>
@@ -438,11 +439,6 @@ Demen S. 9th March 2023.</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Probability</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.SourceId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
